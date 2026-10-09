@@ -30,8 +30,8 @@ n1 = Node(10)
 n2 = Node(20)  
 
 list1.append(n1)
-list1.append(n2)  # Fix 4: Changed 'list2' to 'list1' (list2 was never created)
+list1.append(n2) 
 list1.append(Node(30))
 list1.append(Node(40))
 
-list1.print()  # Fix 5: Changed 'list1.print' from the original typo mapping
+list1.print()  
